@@ -14,10 +14,10 @@ describe "Sum of Consecutive Numbers" do
   end
 
   it "raises an error when passed a non-integer" do
-    expect{consecutive_sum?("hello")}.to raise_error(ArgumentError)
+    expect{consecutive_sum?("hello")}.to raise_error(ArgumentError, "Input must be an integer")
   end
 
   it "raises an error when passed a negative" do
-    expect{consecutive_sum?(-2)}.to raise_error(ArgumentError)
+    expect{consecutive_sum?(-2)}.to raise_error(ArgumentError, "Input must be larger than 0")
   end
 end
