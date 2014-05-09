@@ -1,4 +1,4 @@
-require_relative '../sum.rb'
+require_relative '../consecutive_sum.rb'
 
 describe "Sum of Consecutive Numbers" do
   it "returns true when passed a number that can be summmed consecutively" do

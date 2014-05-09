@@ -1,5 +1,3 @@
-require 'spec_helper'
-
 def consecutive_sum?(num)
   check_input(num)
   1.upto(num/2) do |i|
